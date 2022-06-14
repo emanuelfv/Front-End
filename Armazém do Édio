@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Armazenagem() {
+        document.getElementById("Nome");
+        document.getElementById("Peso");
+        document.getElementById("Preco");
+        document.getElementById("Validade");
+        document.getElementById("Comparacao");
+        }
+    </script>
+</head>
+<body style="background-color: black; color: white; text-align: center;">
+    <h1>INFORMAÇÃO</h1>
+    <div>
+        <h3>NOME</h3> <input id="Nome">
+        <h3>PESO</h3> <input id="Peso">
+        <h3>PREÇO</h3> <input id="Preco">
+        <h3>VALIDADE</h3> <input id="Validade">
+        <h3>COMPARAÇÃO</h3> <input id="Comparacao">
+        <br><br>
+        <button onclick="Armazenagem()">ARMAZENAR</button>
+    </div>
+</body>
+</html>
