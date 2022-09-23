@@ -1,0 +1,8 @@
+#Todos os códigos foram feitos com o uso da biblioteca "streamlit"
+#Primeiro passo: Baixe o anaconda e crie um ambiente
+#Abra a janela de comando
+# digite cd.. duas vezes
+#Digite: pip install streamlit
+Após instalar, digite: streamlit run app.py (nome do arquivo)
+import streamlit as st
+
